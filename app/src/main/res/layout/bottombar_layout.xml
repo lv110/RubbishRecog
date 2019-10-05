@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottombar">
+    <ImageButton
+        android:id="@+id/bottom_button_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/photo_1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:id="@+id/bottom_button_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/search_1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:id="@+id/bottom_button_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/new_other_1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent" />
+</LinearLayout>

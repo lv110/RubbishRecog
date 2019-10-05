@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0047A5"
+    android:id="@+id/item_background"
+    android:layout_marginTop="@dimen/cardview_default_radius"
+    app:layout_constraintCircleRadius="@dimen/cardview_default_radius">
+
+    <ImageView
+        android:id="@+id/rubbish_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/rubbish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:autoSizeTextType="uniform"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+</LinearLayout>

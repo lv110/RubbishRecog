@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/totakephoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/totakephoto1"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照识垃圾"
+        android:layout_below="@id/totakephoto"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+</RelativeLayout>
